@@ -1,0 +1,159 @@
+{
+  "navbar": {
+    "title": "Username",
+    "items": [
+      {
+        "title": "Projects",
+        "link": "#work-section"
+      },
+      {
+        "title": "About",
+        "link": "#about-section"
+      },
+      {
+        "title": "Contact",
+        "link": "#contact-section"
+      }
+    ]
+  },
+  "hero": {
+    "id": "hero-section",
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80",
+    "title": "SAMPLE Title",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
+    "projectCount": 10
+  },
+  "work": {
+    "id": "work-section",
+    "title": "My Latest Work",
+    "filters": [
+      {
+        "title": "All",
+        "tag": "all"
+      },
+      {
+        "title": "Item 1",
+        "tag": "item-1"
+      },
+      {
+        "title": "Item 2",
+        "tag": "item-2"
+      },
+      {
+        "title": "Item 3",
+        "tag": "item-3"
+      }
+    ],
+    "items": [
+      {
+        "tags": ["item-1"],
+        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      },
+      {
+        "tags": ["item-2", "item-3"],
+        "imageUrl": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      },
+      {
+        "tags": ["item-3"],
+        "imageUrl": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      },
+      {
+        "tags": ["item-1"],
+        "imageUrl": "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      },
+      {
+        "tags": ["item-1"],
+        "imageUrl": "https://images.unsplash.com/photo-1632280071595-b13521457242?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      },
+      {
+        "tags": ["item-3"],
+        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      },
+      {
+        "tags": ["item-2"],
+        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      }
+    ]
+  },
+  "about": {
+    "id": "about-section",
+    "title": "About Me",
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl."
+  },
+  "services": {
+    "id": "services-section",
+    "title": "My Services",
+    "serviceList": [
+      {
+        "title": "Item 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
+        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      },
+      {
+        "title": "Item 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
+        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      },
+      {
+        "title": "Item 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
+        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      },
+      {
+        "title": "Item 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
+        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+      }
+    ]
+  },
+  "skills": {
+    "id": "skills-section",
+    "title": "My Skills",
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80",
+    "skillList": [
+      {
+        "name": "Tool 1",
+        "percentage": 85
+      },
+      {
+        "name": "Tool 2",
+        "percentage": 70
+      },
+      {
+        "name": "Tool 3",
+        "percentage": 95
+      },
+      {
+        "name": "Tool 4",
+        "percentage": 90
+      }
+    ]
+  },
+  "contact": {
+    "id": "contact-section",
+    "title": "Contact Us At",
+    "itemList": [
+      {
+        "title": "Phone",
+        "value": "123-456-7890",
+        "link": "tel:123-456-7890"
+      },
+      {
+        "title": "Email",
+        "value": "username@email.com",
+        "link": "mailto:username@email.com"
+      },
+      {
+        "title": "Instagram",
+        "value": "@username",
+        "link": "https://www.instagram.com/username"
+      },
+      {
+        "title": "LinkedIn",
+        "value": "username",
+        "link": "https://www.linkedin.com/in/username"
+      }
+    ]
+  }
+}

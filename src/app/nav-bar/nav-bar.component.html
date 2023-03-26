@@ -1,0 +1,20 @@
+<header class="sticky top-0 z-30 w-full px-2 py-4 bg-primary sm:px-4">
+  <div class="flex items-center justify-between mx-auto max-w-7xl">
+    <a href="#">
+      <span class="text-2xl font-extrabold text-secondary uppercase">{{
+        navBarData?.title
+      }}</span>
+    </a>
+    <div class="flex items-center space-x-1">
+      <ul class="hidden space-x-2 md:inline-flex">
+        <li *ngFor="let item of navBarData?.items">
+          <a
+            [href]="item?.link"
+            class="text-xl text-secondary px-4 py-2 font-semibold"
+            >{{ item?.title }}</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
