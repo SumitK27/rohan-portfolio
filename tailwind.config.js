@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
     fontFamily: {
-      display: ["Pally", "Comic Sans MS", "sans-serif"],
-      body: ["Pally", "Comic Sans MS", "sans-serif"],
+      display: ["Integral CF", "Comic Sans MS", "sans-serif"],
+      body: ["Integral CF", "Comic Sans MS", "sans-serif"],
     },
     extend: {},
     colors: {
