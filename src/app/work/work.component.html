@@ -1,0 +1,51 @@
+<section [id]="workData?.id" class="min-h-screen p-5 bg-secondary">
+  <h2 class="text-2xl font-bold uppercase text-center">My Latest Work</h2>
+
+  <ul
+    class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:grid-cols-4 text-center pt-4 justify-center"
+  >
+    <li
+      *ngFor="let filter of workData?.filters"
+      (click)="onTagClick(filter.tag)"
+      class="font-bold uppercase hover:bg-primary hover:text-secondary px-4 py-2 rounded-full cursor-pointer {{
+        selectedTag == filter.tag ? 'bg-primary text-secondary' : ''
+      }}"
+    >
+      {{ filter.title }}
+    </li>
+  </ul>
+
+  <div class="flex flex-col items-center justify-center w-full sm:py-8 px-4">
+    <div class="w-full h-[50vh] bg-primary m-4">
+      <img
+        [src]="previewItem?.imageUrl"
+        class="w-full h-full object-cover"
+        alt=""
+      />
+    </div>
+    <div class="w-full relative flex items-center justify-center">
+      <div
+        class="w-full h-full mx-auto overflow-x-scroll scroll-m-2 scroll-p-3 overflow-y-hidden pb-3"
+      >
+        <div
+          #slider
+          class="h-full flex lg:gap-4 md:gap-4 gap-4 items-center justify-start transition ease-out duration-700"
+        >
+          <div
+            class="flex flex-shrink-0 flex-col gap-4 relative sm:w-auto"
+            *ngFor="let item of completeItems; let i = index"
+            (click)="onItemClick(i)"
+          >
+            <img
+              [src]="item.imageUrl"
+              alt="black chair and secondary table"
+              class="object-cover object-center hover:scale-90 hover:border-4 hover:border-primary hover:transition-transform w-full h-60 max-w-md ease-in-out {{
+                item == previewItem ? 'border-primary border-4' : ''
+              }}"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

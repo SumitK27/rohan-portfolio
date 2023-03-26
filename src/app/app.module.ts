@@ -8,6 +8,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
+import { WorkComponent } from './work/work.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ServiceComponent } from './service/service.component';
 
@@ -18,6 +19,7 @@ import { ServiceComponent } from './service/service.component';
     ContactComponent,
     HeroComponent,
     AboutComponent,
+    WorkComponent,
     SkillsComponent,
     ServiceComponent,
   ],

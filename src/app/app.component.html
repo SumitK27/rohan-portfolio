@@ -5,6 +5,10 @@
     *ngIf="portfolioData?.hero"
     [heroData]="portfolioData?.hero"
   ></app-hero>
+  <app-work
+    *ngIf="portfolioData?.work"
+    [workData]="portfolioData?.work"
+  ></app-work>
   <app-about
     *ngIf="portfolioData?.about"
     [aboutData]="portfolioData?.about"
