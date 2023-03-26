@@ -8,7 +8,13 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class HeroComponent {
   @Input() heroData: any;
+  safeURL: any;
 
-  constructor(private sanitizer: DomSanitizer) {
+  constructor(private sanitizer: DomSanitizer) {}
+
+  ngOnInit(): void {
+    this.safeURL = this.sanitizer.bypassSecurityTrustResourceUrl(
+      this.heroData?.videoUrl
+    );
   }
 }

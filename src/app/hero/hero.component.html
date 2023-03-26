@@ -3,9 +3,18 @@
   class="min-h-screen h-auto bg-primary text-secondary px-8"
 >
   <img
+    *ngIf="!heroData?.videoUrl"
     class="flex flex-col justify-center items-center max-h-[60vh] h-2/4 xl:h-3/4 bg-secondary w-full object-cover object-center"
     [src]="heroData?.imageUrl"
   />
+  <iframe
+    *ngIf="heroData?.videoUrl"
+    [src]="safeURL"
+    frameborder="0"
+    class="flex flex-col justify-center items-center h-[60vh] bg-secondary w-full object-cover object-center"
+    allow="autoplay; encrypted-media;"
+    allowfullscreen
+  ></iframe>
   <div class="flex flex-col items-center h-2/4 xl:h-214 py-4">
     <h1 class="text-3xl font-bold uppercase">{{ heroData?.title }}</h1>
     <p class="text-xl text-center">{{ heroData?.description }}</p>

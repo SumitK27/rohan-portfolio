@@ -1,4 +1,5 @@
 import { Component, Input, ViewChild } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-work',
@@ -13,7 +14,7 @@ export class WorkComponent {
   selectedTag: string = 'all';
   completeItems: any;
 
-  constructor() {}
+  constructor(public _sanitizer: DomSanitizer) {}
 
   ngOnInit(): void {
     this.completeItems = this.workData?.items;
