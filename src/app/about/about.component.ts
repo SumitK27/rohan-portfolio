@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { About } from '../portfolio.model';
 
 @Component({
   selector: 'app-about',
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./about.component.css'],
 })
 export class AboutComponent {
-  @Input() aboutData: any;
+  @Input() aboutData!: About;
 }

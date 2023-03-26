@@ -1,29 +1,32 @@
-<app-nav-bar [navBarData]="portfolioData?.navbar"></app-nav-bar>
+<app-nav-bar
+  *ngIf="portfolioData?.navbar"
+  [navBarData]="portfolioData.navbar"
+></app-nav-bar>
 
 <main>
   <app-hero
     *ngIf="portfolioData?.hero"
-    [heroData]="portfolioData?.hero"
+    [heroData]="portfolioData.hero"
   ></app-hero>
   <app-work
     *ngIf="portfolioData?.work"
-    [workData]="portfolioData?.work"
+    [workData]="portfolioData.work"
   ></app-work>
   <app-about
     *ngIf="portfolioData?.about"
-    [aboutData]="portfolioData?.about"
+    [aboutData]="portfolioData.about"
   ></app-about>
   <app-service
     *ngIf="portfolioData?.services"
-    [serviceData]="portfolioData?.services"
+    [serviceData]="portfolioData.services"
   ></app-service>
   <app-skills
     *ngIf="portfolioData?.skills"
-    [skillsData]="portfolioData?.skills"
+    [skillsData]="portfolioData.skills"
   ></app-skills>
 </main>
 
 <app-contact
   *ngIf="portfolioData?.contact"
-  [contactData]="portfolioData?.contact"
+  [contactData]="portfolioData.contact"
 ></app-contact>

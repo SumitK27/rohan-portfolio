@@ -2,16 +2,16 @@
   <div class="flex items-center justify-between mx-auto max-w-7xl">
     <a href="#">
       <span class="text-2xl font-extrabold text-secondary uppercase">{{
-        navBarData?.title
+        navBarData.title
       }}</span>
     </a>
     <div class="flex items-center space-x-1">
       <ul class="hidden space-x-2 md:inline-flex">
-        <li *ngFor="let item of navBarData?.items">
+        <li *ngFor="let item of navBarData.items">
           <a
-            [href]="item?.link"
+            [href]="item.link"
             class="text-xl text-secondary px-4 py-2 font-semibold"
-            >{{ item?.title }}</a
+            >{{ item.title }}</a
           >
         </li>
       </ul>

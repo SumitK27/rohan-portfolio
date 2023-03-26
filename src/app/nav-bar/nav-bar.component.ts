@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Navbar } from '../portfolio.model';
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./nav-bar.component.css'],
 })
 export class NavBarComponent {
-  @Input() navBarData: any;
+  @Input() navBarData!: Navbar;
 }

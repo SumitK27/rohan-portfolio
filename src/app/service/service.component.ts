@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Services } from '../portfolio.model';
 
 @Component({
   selector: 'app-service',
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./service.component.css'],
 })
 export class ServiceComponent {
-  @Input() serviceData: any;
+  @Input() serviceData!: Services;
 }

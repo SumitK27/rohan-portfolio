@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import { Hero } from '../portfolio.model';
 
 @Component({
   selector: 'app-hero',
@@ -7,7 +8,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./hero.component.css'],
 })
 export class HeroComponent {
-  @Input() heroData: any;
+  @Input() heroData!: Hero;
   safeURL: any;
 
   constructor(private sanitizer: DomSanitizer) {}

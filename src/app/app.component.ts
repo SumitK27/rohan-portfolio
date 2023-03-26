@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Portfolio } from './portfolio.model';
 import { PortfolioService } from './portfolio.service';
 
 @Component({
@@ -7,7 +8,7 @@ import { PortfolioService } from './portfolio.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  portfolioData: any;
+  portfolioData!: Portfolio;
 
   constructor(private portfolioService: PortfolioService) {}
 

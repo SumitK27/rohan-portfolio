@@ -1,6 +1,6 @@
-<section [id]="serviceData?.id" class="py-5 bg-primary text-secondary">
+<section [id]="serviceData.id" class="py-5 bg-primary text-secondary">
   <h2 class="text-2xl font-bold uppercase text-center my-4">
-    {{ serviceData?.title }}
+    {{ serviceData.title }}
   </h2>
   <div class="bg-secondary py-8 px-5">
     <ul
@@ -8,11 +8,11 @@
     >
       <li
         class="col-span-1 flex flex-col shadow-sm rounded-md relative"
-        *ngFor="let service of serviceData?.serviceList"
+        *ngFor="let service of serviceData.serviceList"
       >
         <img
           class="flex-shrink-0 flex items-center justify-center w-full bg-pink-600 text-white text-sm font-medium rounded-t-md"
-          [src]="service?.imageUrl"
+          [src]="service.imageUrl"
         />
         <div
           class="flex-1 flex items-center justify-between border-t border-r border-b border-gray-200 bg-white rounded-b-md truncate"
@@ -21,9 +21,9 @@
             <a
               href="#"
               class="text-gray-900 font-medium hover:text-gray-600 text-ellipsis"
-              >{{ service?.title }}</a
+              >{{ service.title }}</a
             >
-            <p class="text-gray-500">{{ service?.description }}</p>
+            <p class="text-gray-500">{{ service.description }}</p>
           </div>
         </div>
       </li>

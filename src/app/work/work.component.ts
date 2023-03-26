@@ -1,5 +1,6 @@
 import { Component, Input, ViewChild } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import { Work } from '../portfolio.model';
 
 @Component({
   selector: 'app-work',
@@ -7,7 +8,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./work.component.css'],
 })
 export class WorkComponent {
-  @Input() workData: any;
+  @Input() workData!: Work;
   @ViewChild('slider') slider: any;
 
   previewItem: any;

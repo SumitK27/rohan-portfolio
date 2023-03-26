@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Contact } from '../portfolio.model';
 
 @Component({
   selector: 'app-contact',
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./contact.component.css'],
 })
 export class ContactComponent {
-  @Input() contactData: any;
+  @Input() contactData!: Contact;
 }
