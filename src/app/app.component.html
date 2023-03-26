@@ -6,3 +6,8 @@
     [heroData]="portfolioData?.hero"
   ></app-hero>
 </main>
+
+<app-contact
+  *ngIf="portfolioData?.contact"
+  [contactData]="portfolioData?.contact"
+></app-contact>
