@@ -1,0 +1,19 @@
+<section
+  [id]="heroData?.id"
+  class="min-h-screen h-auto bg-primary text-secondary px-8"
+>
+  <img
+    class="flex flex-col justify-center items-center max-h-[60vh] h-2/4 xl:h-3/4 bg-secondary w-full object-cover object-center"
+    [src]="heroData?.imageUrl"
+  />
+  <div class="flex flex-col items-center h-2/4 xl:h-214 py-4">
+    <h1 class="text-3xl font-bold uppercase">{{ heroData?.title }}</h1>
+    <p class="text-xl text-center">{{ heroData?.description }}</p>
+    <div
+      class="py-4 flex justify-between items-center text-5xl font-bold w-full mt-10"
+    >
+      <p>Project Done</p>
+      <p>{{ heroData?.projectCount }}</p>
+    </div>
+  </div>
+</section>

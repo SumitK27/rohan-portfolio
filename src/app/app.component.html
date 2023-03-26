@@ -1,2 +1,8 @@
 <app-nav-bar [navBarData]="portfolioData?.navbar"></app-nav-bar>
 
+<main>
+  <app-hero
+    *ngIf="portfolioData?.hero"
+    [heroData]="portfolioData?.hero"
+  ></app-hero>
+</main>
