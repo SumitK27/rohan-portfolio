@@ -8,6 +8,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
+import { SkillsComponent } from './skills/skills.component';
 import { ServiceComponent } from './service/service.component';
 
 @NgModule({
@@ -17,6 +18,7 @@ import { ServiceComponent } from './service/service.component';
     ContactComponent,
     HeroComponent,
     AboutComponent,
+    SkillsComponent,
     ServiceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
