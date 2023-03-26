@@ -8,6 +8,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { AboutComponent } from './about/about.component';
     ContactComponent,
     HeroComponent,
     AboutComponent,
+    ServiceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

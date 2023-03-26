@@ -9,6 +9,10 @@
     *ngIf="portfolioData?.about"
     [aboutData]="portfolioData?.about"
   ></app-about>
+  <app-service
+    *ngIf="portfolioData?.services"
+    [serviceData]="portfolioData?.services"
+  ></app-service>
 </main>
 
 <app-contact
