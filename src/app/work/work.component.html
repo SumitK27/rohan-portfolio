@@ -1,5 +1,8 @@
 <section [id]="workData.id" class="min-h-screen p-5 bg-secondary">
-  <h2 class="text-2xl font-bold uppercase text-center">
+  <h2
+    class="text-3xl font-bold uppercase text-center"
+    style="text-shadow: 2px 2px 2px #c3c3c3"
+  >
     {{ workData.title }}
   </h2>
 
@@ -18,11 +21,11 @@
   </ul>
 
   <div class="flex flex-col items-center justify-center w-full sm:py-8 px-4">
-    <div class="w-full h-[70vh] bg-primary m-4">
+    <div class="w-full h-[70vh] bg-primary m-4 rounded-2xl">
       <img
         *ngIf="!previewItem?.videoUrl"
         [src]="previewItem?.imageUrl"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-cover rounded-2xl"
         alt=""
       />
       <iframe
@@ -31,7 +34,7 @@
           this._sanitizer.bypassSecurityTrustResourceUrl(previewItem?.videoUrl)
         "
         frameborder="0"
-        class="h-full w-full object-cover"
+        class="h-full w-full object-cover rounded-2xl"
         allow="autoplay; encrypted-media;"
         allowfullscreen
       ></iframe>
@@ -51,8 +54,8 @@
           >
             <img
               [src]="item.imageUrl"
-              alt="black chair and secondary table"
-              class="object-cover object-center hover:scale-90 hover:border-4 hover:border-primary hover:transition-transform w-full h-60 max-w-md ease-in-out {{
+              [alt]="item.title"
+              class="object-cover object-center rounded-xl drop-shadow-lg shadow-lg hover:scale-90 hover:border-4 hover:border-primary hover:transition-transform w-full h-60 max-w-md ease-in-out {{
                 item == previewItem ? 'border-primary border-4' : ''
               }}"
             />

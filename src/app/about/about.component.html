@@ -1,14 +1,21 @@
 <section [id]="aboutData.id" class="mt-5 py-5 bg-primary text-secondary">
-  <h2 class="text-2xl font-bold uppercase text-center">
+  <h2
+    class="text-3xl font-bold uppercase text-center"
+    style="text-shadow: 2px 2px 2px black"
+  >
     {{ aboutData.title }}
   </h2>
-  <div class="w-full h-full mt-5 px-5 object-cover bg-black bg-opacity-50 py-5">
+  <div
+    style="box-shadow: 10px 10px black"
+    class="w-full h-full mt-5 px-5 object-cover bg-black rounded-md bg-opacity-50 py-5"
+  >
     <div
       class="flex justify-between items-center h-full text-secondary max-sm:flex-col gap-4"
     >
       <div class="w-2/5 flex max-sm:w-full justify-center py-5">
         <img
-          class="rounded-full bg-secondary h-72 w-72 object-cover"
+          style="box-shadow: 10px 10px black"
+          class="rounded-full bg-secondary border-primary border-8 h-72 w-72 object-cover"
           [src]="aboutData.imageUrl"
           alt=""
         />

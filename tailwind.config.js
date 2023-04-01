@@ -9,6 +9,7 @@ module.exports = {
     extend: {},
     colors: {
       primary: "#502274",
+      dark: "#2F242C",
       secondary: "#FFFCFF",
       progress: "#E9D229",
       ...require("tailwindcss/colors"),
