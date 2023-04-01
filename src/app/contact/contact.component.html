@@ -2,12 +2,14 @@
   <h2 class="text-3xl font-bold uppercase text-center">
     {{ contactData.title }}
   </h2>
-  <ul class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:grid-cols-4 p-5">
+  <ul
+    class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:grid-cols-4 p-5 xl:flex xl:justify-between xl:flex-wrap"
+  >
     <li *ngFor="let item of contactData.itemList">
       <ul>
         <li class="text-xl font-bold">{{ item.title }}</li>
         <li class="font-mono">
-          <a [href]="item.link">{{ item.value }}</a>
+          <a [href]="item.link" target="_blank">{{ item.value }}</a>
         </li>
       </ul>
     </li>
