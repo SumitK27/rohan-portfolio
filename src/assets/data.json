@@ -18,7 +18,8 @@
   },
   "hero": {
     "id": "hero-section",
-    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80",
+    "imageUrl": "https://img.youtube.com/vi/MY2jjUlu0Ag/0.jpg",
+    "videoUrl": "https://www.youtube.com/embed/MY2jjUlu0Ag?autoplay=1&disablekb=1&modestbranding=1&color=white&controls=0&showinfo=0&rel=0&loop=1",
     "title": "SAMPLE Title",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
     "projectCount": 10
@@ -32,53 +33,109 @@
         "tag": "all"
       },
       {
-        "title": "Item 1",
-        "tag": "item-1"
+        "title": "Videos",
+        "tag": "videos"
       },
       {
-        "title": "Item 2",
-        "tag": "item-2"
+        "title": "Reels",
+        "tag": "reels"
       },
       {
-        "title": "Item 3",
-        "tag": "item-3"
+        "title": "Color Grading",
+        "tag": "color-grading"
       }
     ],
     "items": [
       {
-        "tags": ["item-1"],
-        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "tags": ["videos"],
+        "title": "Varanasi",
+        "imageUrl": "https://img.youtube.com/vi/Pkkhw5dz6oo/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/Pkkhw5dz6oo?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       },
       {
-        "tags": ["item-2", "item-3"],
-        "imageUrl": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "tags": ["videos"],
+        "title": "Vlog Edit",
+        "imageUrl": "https://img.youtube.com/vi/nvTliUB8LMo/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/nvTliUB8LMo?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       },
       {
-        "tags": ["item-3"],
-        "imageUrl": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "tags": ["videos"],
+        "title": "BoAt Commercial",
+        "imageUrl": "https://img.youtube.com/vi/CUoyQDTo4_0/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/CUoyQDTo4_0?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       },
       {
-        "tags": ["item-1"],
-        "imageUrl": "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "tags": ["videos"],
+        "title": "House Warming",
+        "imageUrl": "https://img.youtube.com/vi/TNlxc5RQga8/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/TNlxc5RQga8?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       },
       {
-        "tags": ["item-1"],
-        "imageUrl": "https://images.unsplash.com/photo-1632280071595-b13521457242?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "tags": ["reels"],
+        "title": "Catering",
+        "imageUrl": "https://img.youtube.com/vi/Du3ibA33AwM/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/Du3ibA33AwM?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       },
       {
-        "tags": ["item-3"],
-        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "tags": ["reels"],
+        "title": "",
+        "imageUrl": "https://img.youtube.com/vi/1iog5SFChZs/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/1iog5SFChZs?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       },
       {
-        "tags": ["item-2"],
-        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "tags": ["reels"],
+        "title": "Navaratra Edit 1",
+        "imageUrl": "https://img.youtube.com/vi/HN3eKYeqk6Q/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/HN3eKYeqk6Q?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
+      },
+      {
+        "tags": ["reels"],
+        "title": "Navaratra Edit 2",
+        "imageUrl": "https://img.youtube.com/vi/xVyH4hVRP0E/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/xVyH4hVRP0E?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
+      },
+      {
+        "tags": ["color-grading"],
+        "title": "C Log",
+        "imageUrl": "https://img.youtube.com/vi/wCGL3XCt6lg/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/wCGL3XCt6lg?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
+      },
+      {
+        "tags": ["color-grading"],
+        "title": "Alexa",
+        "imageUrl": "https://img.youtube.com/vi/cI_kTrCrF9k/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/cI_kTrCrF9k?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
+      },
+      {
+        "tags": ["reels"],
+        "title": "Food Edit",
+        "imageUrl": "https://img.youtube.com/vi/YdjJUHdiw2M/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/YdjJUHdiw2M?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
+      },
+      {
+        "tags": ["videos"],
+        "title": "Multi-cam",
+        "imageUrl": "https://img.youtube.com/vi/IMFyEWo56gs/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/IMFyEWo56gs?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
+      },
+      {
+        "tags": ["reels"],
+        "title": "Ganpati Edit",
+        "imageUrl": "https://img.youtube.com/vi/TZZUR2XUNYY/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/TZZUR2XUNYY?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
+      },
+      {
+        "tags": ["videos"],
+        "title": "Phir Hera Pheri",
+        "imageUrl": "https://img.youtube.com/vi/xPBV5BEp1kI/0.jpg",
+        "videoUrl": "https://www.youtube.com/embed/xPBV5BEp1kI?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       }
     ]
   },
   "about": {
     "id": "about-section",
     "title": "About Me",
-    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80",
+    "imageUrl": "./assets/images/rohan.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl."
   },
   "services": {
@@ -86,24 +143,24 @@
     "title": "My Services",
     "serviceList": [
       {
-        "title": "Item 1",
+        "title": "Video Editing",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
-        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "imageUrl": "./assets/images/service-1.jpg"
       },
       {
-        "title": "Item 2",
+        "title": "Sound Design",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
-        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "imageUrl": "./assets/images/service-2.jpg"
       },
       {
-        "title": "Item 3",
+        "title": "Color Grading",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
-        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "imageUrl": "./assets/images/service-3.jpg"
       },
       {
-        "title": "Item 4",
+        "title": "Event Editing",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
-        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+        "imageUrl": "./assets/images/service-4.jpg"
       }
     ]
   },
@@ -113,20 +170,20 @@
     "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80",
     "skillList": [
       {
-        "name": "Tool 1",
-        "percentage": 85
-      },
-      {
-        "name": "Tool 2",
-        "percentage": 70
-      },
-      {
-        "name": "Tool 3",
+        "name": "Premier Pro",
         "percentage": 95
       },
       {
-        "name": "Tool 4",
-        "percentage": 90
+        "name": "After Effects",
+        "percentage": 80
+      },
+      {
+        "name": "Da Vinci Resolve (Color Grading)",
+        "percentage": 70
+      },
+      {
+        "name": "Film Making",
+        "percentage": 60
       }
     ]
   },
@@ -136,23 +193,28 @@
     "itemList": [
       {
         "title": "Phone",
-        "value": "123-456-7890",
-        "link": "tel:123-456-7890"
-      },
-      {
-        "title": "Email",
-        "value": "username@email.com",
-        "link": "mailto:username@email.com"
+        "value": "+91-800-742-9740",
+        "link": "tel:+91-800-742-9740"
       },
       {
         "title": "Instagram",
-        "value": "@username",
-        "link": "https://www.instagram.com/username"
+        "value": "@Pure.soul.visuals",
+        "link": "https://www.instagram.com/pure.soul.visuals/"
+      },
+      {
+        "title": "Youtube",
+        "value": "@puresoulvisuals1151",
+        "link": "https://www.youtube.com/@puresoulvisuals1151/"
       },
       {
         "title": "LinkedIn",
-        "value": "username",
-        "link": "https://www.linkedin.com/in/username"
+        "value": "Rohan Kajbaje",
+        "link": "https://www.linkedin.com/in/rohan-kajbaje"
+      },
+      {
+        "title": "Email",
+        "value": "rohankajbaje@gmail.com",
+        "link": "mailto:rohankajbaje@gmail.com"
       }
     ]
   }
