@@ -136,7 +136,8 @@
     "id": "about-section",
     "title": "About Me",
     "imageUrl": "./assets/images/rohan.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl."
+    "description": "I am a Freelance Video editor. Also I Recently Completed Internship
+as a Video Editor. As an Intern Video Editor, I have 2 years of experience in the field of Editing and as Freelancer. I have also worked as a Video Editor, Content planner and Content Creator. I have a passion for Reading, Videography and Making Music.."
   },
   "services": {
     "id": "services-section",
@@ -144,22 +145,22 @@
     "serviceList": [
       {
         "title": "Video Editing",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
+        "description": "From trimming and organizing footage to creating a cohesive story, I can turn raw footage into a polished video that captures your vision and resonates with your audience.",
         "imageUrl": "./assets/images/service-1.jpg"
       },
       {
         "title": "Sound Design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
+        "description": "Audio is just as important as visuals in video production. With my expertise in sound design, I can enhance the mood and atmosphere of your video with music, sound effects, and voiceovers.",
         "imageUrl": "./assets/images/service-2.jpg"
       },
       {
         "title": "Color Grading",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
+        "description": "Color grading can completely transform the look and feel of your video. Whether you want a warm and cozy look or a cool and cinematic feel, I can use advanced color grading techniques to make your video stand out.",
         "imageUrl": "./assets/images/service-3.jpg"
       },
       {
         "title": "Event Editing",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl. Sed euismod, nisl vel tincidunt luctus, nunc nisl aliquam lorem, vitae lacinia nisl lorem non nisl.",
+        "description": "Capturing the highlights of your special event and creating a memorable video is my specialty. I can turn hours of footage into a concise and engaging video that captures the essence of your event.",
         "imageUrl": "./assets/images/service-4.jpg"
       }
     ]
