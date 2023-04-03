@@ -19,7 +19,7 @@
   "hero": {
     "id": "hero-section",
     "imageUrl": "https://img.youtube.com/vi/MY2jjUlu0Ag/0.jpg",
-    "videoUrl": "https://www.youtube.com/embed/MY2jjUlu0Ag?autoplay=1&disablekb=1&modestbranding=1&color=white&controls=0&showinfo=0&rel=0&loop=1",
+    "videoUrl": "https://www.youtube.com/embed/MY2jjUlu0Ag?,
     "title": "Video Editing Showreel 2023",
     "description": "My video editing showreel showcases my versatility and expertise in handling various editing projects including story editing, podcast editing, event editing, product shoot edit, vlogs, and more. With my skills in color grading/correction and audio editing/sound design, I bring out the best in every video. Having worked on more than 25 projects for clients, I have the experience and creativity to bring your vision to life..",
     "projectCount": 25
@@ -50,7 +50,7 @@
         "tags": ["videos"],
         "title": "Varanasi",
         "imageUrl": "https://img.youtube.com/vi/Pkkhw5dz6oo/0.jpg",
-        "videoUrl": "https://www.youtube.com/embed/Pkkhw5dz6oo?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
+        "videoUrl": "https://www.youtube.com/embed/Pkkhw5dz6oo?
       },
       {
         "tags": ["videos"],
