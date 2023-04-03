@@ -61,13 +61,13 @@
        {
         "tags": ["Reels"],
         "title": "Mountain Dew Commercial",
-        "imageUrl": "https://img.youtube.com/vi/CUoyQDTo4_0/0.jpg",
+        "imageUrl": "https://img.youtube.com/vi/OcrX03WkbXg_0/0.jpg",
         "videoUrl": "https://www.youtube.com/embed/OcrX03WkbXg"
       },
       {
         "tags": ["Reels"],
         "title": "Model Reel",
-        "imageUrl": "https://img.youtube.com/vi/CUoyQDTo4_0/0.jpg",
+        "imageUrl": "https://img.youtube.com/vi/852x37XZ53w_0/0.jpg",
         "videoUrl": "https://www.youtube.com/embed/852x37XZ53w?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       }, 
       {
@@ -89,7 +89,7 @@
         "videoUrl": "https://www.youtube.com/embed/Du3ibA33AwM?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       },
       {
-        "tags": ["reels"],
+        "tags": ["reels"], //no video
         "title": "",
         "imageUrl": "https://img.youtube.com/vi/1iog5SFChZs/0.jpg",
         "videoUrl": "https://www.youtube.com/embed/1iog5SFChZs?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
