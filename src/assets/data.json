@@ -196,28 +196,23 @@
     "title": "Contact Us At",
     "itemList": [
       {
-        "title": "Phone",
-        "value": "+91-800-742-9740",
-        "link": "tel:+91-800-742-9740"
-      },
+      }
       {
-        "title": "Instagram",
-        "value": "@Pure.soul.visuals",
+        
+        "value": "Instagram",
         "link": "https://www.instagram.com/pure.soul.visuals/"
       },
       {
-        "title": "Youtube",
-        "value": "@puresoulvisuals1151",
+        
+        "value": "Youtube",
         "link": "https://www.youtube.com/@puresoulvisuals1151/"
       },
       {
-        "title": "LinkedIn",
-        "value": "Rohan Kajbaje",
+        "value": "LinkedIn",
         "link": "https://www.linkedin.com/in/rohan-kajbaje"
       },
       {
-        "title": "Email",
-        "value": "rohankajbaje@gmail.com",
+        "value": "Email",
         "link": "mailto:rohankajbaje@gmail.com"
       }
     ]
