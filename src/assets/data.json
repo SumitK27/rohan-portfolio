@@ -89,7 +89,7 @@
         "videoUrl": "https://www.youtube.com/embed/Du3ibA33AwM?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       },
       {
-        "tags": ["reels"], //no video
+        "tags": ["reels"],
         "title": "",
         "imageUrl": "https://img.youtube.com/vi/1iog5SFChZs/0.jpg",
         "videoUrl": "https://www.youtube.com/embed/1iog5SFChZs?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
