@@ -58,18 +58,18 @@
         "imageUrl": "https://img.youtube.com/vi/nvTliUB8LMo/0.jpg",
         "videoUrl": "https://www.youtube.com/embed/nvTliUB8LMo?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
       },
-       {
+      {
         "tags": ["Reels"],
         "title": "Mountain Dew Commercial",
-        "imageUrl": "https://img.youtube.com/vi/OcrX03WkbXg_0/0.jpg",
+        "imageUrl": "https://img.youtube.com/vi/OcrX03WkbXg/0.jpg",
         "videoUrl": "https://www.youtube.com/embed/OcrX03WkbXg"
       },
       {
         "tags": ["Reels"],
         "title": "Model Reel",
-        "imageUrl": "https://img.youtube.com/vi/852x37XZ53w_0/0.jpg",
+        "imageUrl": "https://img.youtube.com/vi/852x37XZ53w/0.jpg",
         "videoUrl": "https://www.youtube.com/embed/852x37XZ53w?autoplay=1&disablekb=1&modestbranding=1&color=white&rel=0&loop=1"
-      }, 
+      },
       {
         "tags": ["videos"],
         "title": "BoAt Commercial",
@@ -208,12 +208,10 @@
     "title": "Contact Us At",
     "itemList": [
       {
-        
         "value": "Instagram",
         "link": "https://www.instagram.com/pure.soul.visuals/"
       },
       {
-        
         "value": "Youtube",
         "link": "https://www.youtube.com/@puresoulvisuals1151/"
       },
