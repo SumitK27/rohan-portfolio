@@ -8,4 +8,14 @@ import { Navbar } from '../portfolio.model';
 })
 export class NavBarComponent {
   @Input() navBarData!: Navbar;
+
+  isNavBarExpanded = false;
+
+  openNavbar() {
+    this.isNavBarExpanded = true;
+  }
+
+  closeNavbar() {
+    this.isNavBarExpanded = false;
+  }
 }

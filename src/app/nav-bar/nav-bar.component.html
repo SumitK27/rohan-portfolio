@@ -1,9 +1,12 @@
-<header class="sticky top-0 z-30 w-full px-2 py-4 bg-primary sm:px-4">
+<nav class="sticky top-0 z-30 w-full px-2 py-4 bg-primary sm:px-4">
   <div class="flex items-center justify-between mx-auto max-w-7xl">
     <a href="#">
-      <span class="text-2xl font-extrabold text-secondary uppercase">{{
-        navBarData.title
-      }}</span>
+      <span
+        class="text-2xl font-extrabold text-secondary uppercase"
+        style="text-shadow: 2px 2px 2px black"
+      >
+        {{ navBarData.title }}
+      </span>
     </a>
     <div class="flex items-center space-x-1">
       <ul class="hidden space-x-2 md:inline-flex">
@@ -15,6 +18,88 @@
           >
         </li>
       </ul>
+      <div class="inline-flex md:hidden">
+        <button
+          class="flex-none px-2 {{ isNavBarExpanded ? 'hidden' : '' }}"
+          (click)="openNavbar()"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-6 h-6 text-secondary"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 8h16M4 16h16"
+            />
+          </svg>
+          <span class="sr-only">Open Menu</span>
+        </button>
+        <div
+          class="absolute top-0 left-0 right-0 z-50 flex flex-col px-2 py-4 space-y-3 bg-white rounded-b shadow {{
+            isNavBarExpanded ? '' : 'hidden'
+          }}"
+          (click)="closeNavbar()"
+        >
+          <div class="flex justify-between">
+            <a href="#">
+              <span class="text-2xl ml-2 font-extrabold text-primary uppercase"
+                >Rohan K</span
+              >
+            </a>
+            <button
+              class="self-end flex-none px-2 mr-2"
+              (click)="closeNavbar()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 text-primary"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+              <span class="sr-only">Close Menu</span>
+            </button>
+          </div>
+          <ul class="space-y-2">
+            <li>
+              <a
+                href="#work-section"
+                class="text-primary px-4 py-2 font-semibold rounded hover:bg-primary hover:text-secondary block"
+                (click)="closeNavbar()"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about-section"
+                class="text-primary px-4 py-2 font-semibold rounded hover:bg-primary hover:text-secondary block"
+                (click)="closeNavbar()"
+                >About Me</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact-section"
+                class="text-primary px-4 py-2 font-semibold rounded hover:bg-primary hover:text-secondary block"
+                (click)="closeNavbar()"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
-</header>
+</nav>
