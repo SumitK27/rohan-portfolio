@@ -12,7 +12,7 @@
     <li
       *ngFor="let filter of workData?.filters"
       (click)="onTagClick(filter.tag)"
-      class="font-bold uppercase hover:bg-primary hover:text-secondary px-4 py-2 rounded-full cursor-pointer {{
+      class="font-bold uppercase hover:bg-primary hover:text-secondary text-primary border-2 border-primary px-4 py-2 rounded-full cursor-pointer {{
         selectedTag == filter.tag ? 'bg-primary text-secondary' : ''
       }}"
     >
