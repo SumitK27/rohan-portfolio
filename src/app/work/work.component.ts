@@ -9,17 +9,16 @@ import { Work } from '../portfolio.model';
 })
 export class WorkComponent {
   @Input() workData!: Work;
-  @ViewChild('slider') slider: any;
 
   previewItem: any;
   selectedTag: string = 'all';
   completeItems: any;
+  isModalOpen: boolean = false;
 
   constructor(public _sanitizer: DomSanitizer) {}
 
   ngOnInit(): void {
     this.completeItems = this.workData?.items;
-    this.previewItem = this.completeItems[0];
   }
 
   onTagClick(tag: string) {
@@ -31,10 +30,17 @@ export class WorkComponent {
         item.tags.includes(tag)
       );
     }
-    this.previewItem = this.completeItems[0];
   }
 
   onItemClick(index: number) {
+    this.isModalOpen = true;
     this.previewItem = this.completeItems[index];
+  }
+
+  onModalClose() {
+    this.isModalOpen = false;
+    this.previewItem = null;
+    const ytPlayer = document.getElementById('ytplayer');
+    ytPlayer?.setAttribute('src', '');
   }
 }
